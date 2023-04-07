@@ -156,6 +156,7 @@ header .container .toggle{
   padding: 35px;
   display: flex;
   justify-content: flex-end;
+  z-index:2 ;
 }
 .landing .overlay .content .text{
   width: 300px;
