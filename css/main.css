@@ -101,13 +101,15 @@ header .container nav .form i{
   top: 50%;
   transform: translatey(-50%);
   right: 0;
+  display none;
 }
-.toggle{
+
+header .container .toggle{
   color: white;
   display: none;
 }
 @media(max-width : 779px){
-  .toggle{
+  header .container .toggle{
     display: block;
     position: absolute;
     right: 80px;
