@@ -741,7 +741,7 @@ font-weight: 900;
        .pricing .section .plans{
          display: grid;
          grid-template-columns: repeat(auto-fill , minmax(250px , 1fr));
-         gap: 70px;
+         gap: 80px;
        }
       .pricing .section .plans .paln{
        text-align: center;
