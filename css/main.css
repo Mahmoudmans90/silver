@@ -148,7 +148,7 @@ header .container .toggle{
   background: rgb(0 , 0 ,0 , 50%);
 }
 .landing .overlay .content{
-  position: absolute;
+  position: relative;
   width: 50%;
   top: 50%;
   transform: translatey(-50%);
@@ -157,6 +157,7 @@ header .container .toggle{
   display: flex;
   justify-content: flex-end;
   z-index:2 ;
+  color: white ;
 }
 .landing .overlay .content .text{
   width: 300px;
